@@ -24,9 +24,7 @@ function buscaMusica(valor) {
         }
     });
 
-    xhr.open("GET", `https://deezerdevs-deezer.p.rapidapi.com/search?q=${valor}`);
-    xhr.setRequestHeader("x-rapidapi-host", "deezerdevs-deezer.p.rapidapi.com");
-    xhr.setRequestHeader("x-rapidapi-key", "f72a6b1673mshb4b0130bc4010c3p1eed21jsn3a5f09b4d080");
+    xhr.open("GET", `https://deezerdevs-deezer.p.rapidapi.com/search?q=${valor}`)
 
     xhr.send(data);
 
