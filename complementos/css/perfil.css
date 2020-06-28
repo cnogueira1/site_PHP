@@ -1,0 +1,181 @@
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+body {
+    background: url(../img/mundo.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+/* Profile container */
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.image_outer_container {
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.image_inner_container {
+    border-radius: 50%;
+    padding: 8px;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+}
+
+.image_inner_container img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.image_outer_container .green_icon {
+    background-color: #4cd137;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    height: 30px;
+    width: 30px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+    width: 100%;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}
+
+.image_outer_container .green_icon{
+    bottom: -5px;
+}
+
+
+@media (min-width: 768px){
+    .col-md-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 64%;
+        max-width: 64%;
+    }
+}
+
+@media (min-width: 768px){
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+}
+
+.user-image{
+    width: 100px;
+    height: 100px;
+}
